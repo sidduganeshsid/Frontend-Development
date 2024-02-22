@@ -200,9 +200,52 @@ if(name===window.name){console.log("true stmt");}
 
 ```
 
+```CONTEXT
+
+ExecutionContext : Variable Object, Scope Chain, this
+ExecutionContext
+ExecutionContext
+GlobalContext
+
+
+
+
+```
 
 ```
 //once you understand context then debugging becomes simple
 //Hoisting
+//Function declarations are scanned and made available.
+//variable declarations are scanned and made undefined.
+
+tipper("5");
+function tipper(a){
+    <!-- var bill = a; -->
+    var bill = parseInt(a);
+    console.log(bill + 5)
+}
+
+bigTipper("100"); //error 
+
+var bigTipper = function (a){
+    var bill = parseInt(a)
+    console.log(bill + 50) 
+}
+
+
+//variable object
+console.log(name)
+var name = "sidduganesh"
+
 
 ```
+
+```
+//Scope Chaining
+var friend = siddu
+
+console.log()
+
+
+```
+
