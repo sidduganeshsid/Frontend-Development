@@ -242,10 +242,149 @@ var name = "sidduganesh"
 
 ```
 //Scope Chaining
-var friend = siddu
+var friend = "siddu"
 
-console.log()
+myFriend();
+
+function myFriend(){
+    var friend = "ganesh"
+    console.log(friend)
+}
+
+console.log("name of friend"+friend)
 
 
 ```
 
+```
+//scope
+{
+
+}
+
+//this is not scope
+if(){
+    
+}
+
+//this is scope
+function hai(){
+
+}
+```
+
+```
+//IMP
+//this keyword
+
+//to find what is our global context 
+console.log(this);
+//also check inside the browser
+
+
+console.log(this);
+var game = "chess"
+
+funtion scope(){
+    var name = "sg"
+    console.log(this);
+}
+scope()
+
+//vs - both looks same but has different scope
+
+var scope2 = function(){
+    var name = "ag"
+    console.log(this);
+}
+
+
+```
+
+```
+//imp in programming are
+//arrays
+//objects
+//loops
+
+//understanding of api is necessary
+
+```
+
+```
+//arrays
+//spend time in reading docs or at lest practice MDN , w3 is little //bit
+//array is collection of data
+
+var countries = ["India","australia"]
+
+var states = new Array("Rajasthan","Delhi")
+console.log(states)
+
+//inbuilt methods and properties
+console.log(states.length)
+states[0] = "Telangana" //gets replaced
+console.log(states.length)
+
+//example udemy 
+
+var sidduganesh = ["343jjfAjjf","sidduganesh musa","sidduganeshengineer@gmail.com",5,4,true]
+//but this is not good DS, so we use objects
+
+sidduganesh.pop() //last value is removed
+sidduganesh.unshift("1") //value is added to first and other values are moved
+sidduganesh.shift() //removes the first value
+
+//building to do list, tasks, t-shirt store
+console.log(sidduganesh.indexOf(5))
+//searching and deleting it is useful
+//if not found the -1 (super handy)
+
+//string to array || 2 to 3 days to study
+console.log(Array.from("sidduganesh"))
+
+```
+
+```
+callback function and arrow function in array
+function isEven(elem){
+    //if(elem%2===0){
+    //    return true;
+    //}
+    //return false;
+
+    return elem%2===0;
+}
+
+console.log(isEven(3))
+
+//variable function
+var isEven = function (elem){
+    return elem%2===0;
+}
+
+console.log(isEven(4))
+
+//Arrow Function
+var isEven = (elem) => {
+    return elem%2===0;
+}
+
+console.log(isEven(5))
+
+
+//callback function in array
+var result = [2,4,6,8].every(isEven) //passing reference
+//check with every element in an array
+console.log(result)
+//other concepts = filters, maps
+
+
+//callback function 
+//() => ()
+//() => {return ;} //return keyword is required
+console.log([1,3,5,7].every((e)=>(e%2===0)))
+
+//mostly used in frameworks like react and angular.
+
+```
