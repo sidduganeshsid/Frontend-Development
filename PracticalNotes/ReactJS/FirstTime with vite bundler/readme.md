@@ -49,6 +49,6 @@ PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\
 
 
 ```
-hold control key on keyboard and click on the above url (Local:   http://localhost:5173/) \n
+hold control key on keyboard and click on the above url (Local:   http://localhost:5173/) <br/>
 output you can see in the browser as react app runs...
 ![alt text](image.png)
