@@ -4,7 +4,10 @@ below cmd's enter in cmd or terminal in vs code.
 In command prompt or terminal
 
 >npm create vite@latest <br/>
-npm install <br/>
+
+changing to the project directory is mandatory "cd project_name"
+
+>npm install <br/>
 npm run dev
 ```terminal
 
