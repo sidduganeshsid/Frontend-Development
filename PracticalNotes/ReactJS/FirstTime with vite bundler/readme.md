@@ -1,10 +1,14 @@
 # First time React App with vite bundler
 
-```terminal
 below cmd's enter in cmd or terminal in vs code.
->In command prompt or terminal
+In command prompt or terminal
 
-PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE> <mark>npm create vite@latest</mark>
+>npm create vite@latest
+npm install
+npm run dev
+```terminal
+
+PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE> npm create vite@latest
 Need to install the following packages:
 create-vite@5.2.1
 Ok to proceed? (y) y
@@ -22,15 +26,7 @@ Done. Now run:
   npm run dev
 
 PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE> cd .\ManualCounter\
-PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE\ManualCounter> npm run dev
-
-> com.manualcounter@0.0.0 dev
-> vite
-
-'vite' is not recognized as an internal or external command,
-operable program or batch file.
-PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE\ManualCounter> <mark>npm install</mark> 
-> <mark> above cmd install the node_modules </mark>
+PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE\ManualCounter> npm install
 
 added 273 packages, and audited 274 packages in 50s
 
@@ -38,7 +34,7 @@ added 273 packages, and audited 274 packages in 50s
   run `npm fund` for details
 
 found 0 vulnerabilities
-PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE\ManualCounter> <mark>npm run dev</mark>
+PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE\ManualCounter> npm run dev
 
 > com.manualcounter@0.0.0 dev
 > vite
@@ -46,12 +42,13 @@ PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\
 
   VITE v5.1.4  ready in 499 ms
 
-> <mark>control key on keyboard hold and click on the below url</mark>
 
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
   ➜  press h + enter to show help
 
-> output you can see in the browser as react app runs...
 
 ```
+hold control key on keyboard and click on the above url (Local:   http://localhost:5173/)
+output you can see in the browser as react app runs...
+![alt text](image.png)
