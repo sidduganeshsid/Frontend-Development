@@ -3,7 +3,7 @@
 below cmd's enter in cmd or terminal in vs code.
 >In command prompt or terminal
 
-PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE> ==npm create vite@latest==
+PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE> <mark>npm create vite@latest</mark>
 Need to install the following packages:
 create-vite@5.2.1
 Ok to proceed? (y) y
@@ -28,7 +28,8 @@ PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\
 
 'vite' is not recognized as an internal or external command,
 operable program or batch file.
-PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE\ManualCounter> ==npm install==
+PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE\ManualCounter> <mark>npm install</mark> 
+> <mark> above cmd install the node_modules </mark>
 
 added 273 packages, and audited 274 packages in 50s
 
@@ -36,7 +37,7 @@ added 273 packages, and audited 274 packages in 50s
   run `npm fund` for details
 
 found 0 vulnerabilities
-PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE\ManualCounter> ==npm run dev==
+PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\PRACTICE\ManualCounter> <mark>npm run dev</mark>
 
 > com.manualcounter@0.0.0 dev
 > vite
@@ -44,7 +45,7 @@ PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\
 
   VITE v5.1.4  ready in 499 ms
 
-> ==control key on keyboard hold and click on the below url==
+> <mark>control key on keyboard hold and click on the below url</mark>
 
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
