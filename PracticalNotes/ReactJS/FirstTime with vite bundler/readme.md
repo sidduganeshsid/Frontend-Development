@@ -1,5 +1,6 @@
 # First time React App with vite bundler
 
+```terminal
 below cmd's enter in cmd or terminal in vs code.
 >In command prompt or terminal
 
@@ -52,3 +53,5 @@ PS C:\Users\siddu\OneDrive\Desktop\Tech WorkSpace\Frontend-Development\React JS\
   ➜  press h + enter to show help
 
 > output you can see in the browser as react app runs...
+
+```
