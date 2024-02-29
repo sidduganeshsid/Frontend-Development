@@ -3,8 +3,8 @@
 below cmd's enter in cmd or terminal in vs code.
 In command prompt or terminal
 
->npm create vite@latest
-npm install
+>npm create vite@latest <br/>
+npm install <br/>
 npm run dev
 ```terminal
 
